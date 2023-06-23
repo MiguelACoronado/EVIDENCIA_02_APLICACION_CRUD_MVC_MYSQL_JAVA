@@ -1,0 +1,399 @@
+.global{
+    background: linear-gradient(to left, transparent, mistyrose),
+    url("critters.png");
+    height: 150vh;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-attachment: fixed;
+   /*display: flex:*/
+}
+/*---------------header--------------*/
+.header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+   
+}
+.logo{
+    height: 100%;
+    width: 50%;
+    padding: 0.5% 0%;
+}
+.img1{
+    width:40%;
+    height:5%;
+    float: left;
+    margin-bottom: 100%;
+    margin-left: 5%;
+}
+.links{
+    float: right;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.btn-prin-1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.btn-prin-2{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.btn-index{
+    margin-top: 12%;
+    width: 70%;
+    height: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: mistyrose;
+    border-radius:0.2em;
+    color: rgb(66, 66, 66);
+    font-size:1.5em;
+    border: 0;
+}
+.btn-index-1{
+    margin-top: 12%;
+    width: 70%;
+    height: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: mistyrose;
+    border-radius: 0.2em;
+    color: rgb(66, 66, 66);
+    font-size:1.5em;
+    border: 0;
+}
+.btn-prin-1 :hover{
+    margin-top: 12%;
+    width: 70%;
+    height: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0.5em;
+    color: rgb(249, 198, 192);
+    border: 0;
+}
+.btn-prin-2 :hover{
+    margin-top: 12%;
+    width: 70%;
+    height: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0.5em;
+    color: rgb(249, 198, 192);
+    border: 0;
+}
+
+/*---------------main--------------*/
+.main{
+    height: 75%;
+    width: 100%;
+}
+.tabla{
+    height: 98%;
+    width: 80%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .4);
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 2%;
+    border-radius: 1em;
+    border-color:  mistyrose;
+
+}
+.publicacion{
+    margin-top: 0.5%;
+    margin-right: 1%;
+    float: left;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .4);
+    height: 98%;
+    width: 67%;
+    border-color: mistyrose;
+}
+.chat{
+    margin-top: 7%;
+    margin-right: 1%;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: mistyrose;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .4);
+    float: right;
+    height: 85%;
+    width: 30%;
+    background: mistyrose;
+   
+}
+.nombre-cuenta{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 6%;
+}
+
+.fondo-formularios{
+    background: mistyrose;
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    border: solid;
+    border-color: mistyrose;
+    
+}
+
+/*-------------------Formularios---------------*/
+
+.form{
+    width:80%;
+    height:100%;
+    margin-top: 3%;
+    margin-left:10% ;
+    background:mistyrose;
+    border-radius:8px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .4);
+    padding:20px 30px;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:300px;
+    color:#000000;
+    border-bottom:3px solid #78788c
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+input:focus{
+    border-bottom:2px solid #78788c
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background: #78788c;
+    color:#ffffff;
+    cursor:pointer;
+    transition:all .3s
+}
+button:hover{
+    background:#363636;
+    color:#fff
+}
+
+/*-----------------Fin Formularios-------------*/
+
+
+.info{
+    height: 98%;
+    width: 15%;
+    margin-left: 2%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    font-size: 3em;
+    color: black;
+    border-radius: 0.3em;
+    text-decoration: none;
+}
+.Subti{
+    font-size: 0.75em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+}
+.lista1 {
+    counter-reset: li; 
+    list-style: none; 
+    list-style: decimal; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    
+    
+}
+
+.lista1 ol {
+    margin: 0 0 0 2em; 
+}
+
+.lista1 li{
+    width: 60%;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    margin-left: 25%;
+   
+    color: #000000;
+    text-decoration: none;
+    transition: all .3s ease-out;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+
+.lista1 li:hover{
+    background: rgb(249, 198, 192);
+}   
+
+.lista1 li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background:  rgb(249, 198, 192);
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lista1 li:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.lista1 li:hover:after{
+    left: -.5em;
+    border-left-color:  rgb(249, 198, 192);             
+}
+
+/*---------------footer--------------*/
+.pie-pagina{
+    width: 100%;
+    background-color: #383838;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #292a2b;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(201, 159, 154);
+}
+.pie-pagina .grupo-2{
+    background-color: #151515;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+.logo-footer{
+   margin-right: 30%;
+   margin-bottom: 15%;
+   width: 80%;
+   height: 80%;
+}
+.box{
+    font-size: 1.5em;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+  /*------------------Formulario de registro ----------------*/
+        .container{
+            width:auto;
+            margin: 10% 5%;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, .4);
+            background-color: rgb(255, 212, 208);
+        }
+        .element-p{
+            background-color: rgb(248, 248, 248);
+            border-radius: 5px;
+        }
+        .hiper-form,
+        .hiper-eye{
+            width: 10%;
+            display: inline-block;
+        }
+        i{
+            font-size: 29px;
+            color: rgb(0, 0, 0);
+        }
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+        }
+        input[type="text"]{
+            border: rgb(205, 31, 11);
+            border-radius: 5px;
+            outline: none;
+        }
+        input[type="text"]:hover{
+            transition: .2s ease;
+            border: none;
+            border-bottom: rgb(255, 56, 33);
+        }
+        .title{
+            text-align: center;
+        }
